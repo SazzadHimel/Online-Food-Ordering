@@ -62,17 +62,17 @@
                                 </div>
                                 <div class="mt-2">
                                     <button type="button" wire:click="addToCart({{ $productItem->id }})" class="btn btn-sm">
-                                        <span wire:loading.remove wire:target="addToCart">
+                                        <span wire:target="addToCart">
                                             <i class="fa fa-shopping-cart"></i>
                                         </span>
-                                        <span wire:loading wire:target="addToCart">
+                                        <span wire:target="addToCart">
                                         </span>
                                     </button>
                                     <button type="button" wire:click="addToWishlist({{ $productItem->id }})" class="btn btn-sm">
-                                        <span wire:loading.remove wire:target="addToWishlist">
+                                        <span wire:target="addToWishlist">
                                             <i class="fa fa-heart"></i>
                                         </span>
-                                        <span wire:loading wire:target="addToWishlist">
+                                        <span wire:target="addToWishlist">
                                         </span>
                                     </button>
                                 </div>

@@ -15,8 +15,6 @@
 
     <link href="{{asset('assets/css/main.css')}}" rel="stylesheet">
 
-    <link rel="shortcut icon" href="images/logo_Mesa de trabajo 1 copia 2.png">
-
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 

@@ -31,7 +31,6 @@
                     <li><a href="{{ url('admin/orders')}}">Orders</a></li>
                     <li><a href="{{ url('admin/category')}}">Food-Category</a></li>
                     <li><a href="{{ url('admin/products')}}">Food-Menu</a></li>
-                    <li><a href="{{ url('/wallet/admin_balance')}}">Admin-Wallet</a></li>
                     <li>
                         <div>
                             <a href="{{ route('logout') }}"

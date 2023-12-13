@@ -1,7 +1,5 @@
 @extends('layouts.user')
 
-@section('title','My Orders')
-
 @section('content')
     <div class='py-3 py-md-5'>
         <div class='container'>
@@ -19,7 +17,8 @@
                                     <th>Username</th>
                                     <th>Payment Mode</th>
                                     <th>Ordered Date</th>
-                                    <th>Order Status</th>  
+                                    <th>Order Status</th>
+                                    <th>Action</th>  
                                 </thead>
                                 <tbody>
                                     @forelse ($orders as $item)
@@ -30,6 +29,7 @@
                                             <td>{{ $item->payment_mode }}</td>
                                             <td>{{ $item->created_at->format('d-m-Y') }}</td>
                                             <td>{{ $item->status_message}}</td>
+                                            <td><a href="{{ url('orders/'.$item->id) }}" class='btn btn-primary btn-sm'>Invoice</a></td>
                                         </tr>
                                     @empty
                                         <tr>

@@ -14,8 +14,8 @@ class OrderController extends Controller
         return view("user.orders.index",compact("orders"));
     }
 
-    public function show(int $orderId){
-        $order = Order::where("user_id", Auth::user()->id)->where("id", $orderId)->first();
+    public function show($orederId){
+        $order = Order::where("user_id", Auth::user()->id)->where("id", $orederId)->first();
         if($order){
             return view("user.orders.view",compact("order"));
         }else{

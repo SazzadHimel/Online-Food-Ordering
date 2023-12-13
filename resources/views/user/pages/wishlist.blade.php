@@ -52,7 +52,7 @@
                                             </a>
                                         </div>
                                         <div class="col-md-2 my-auto">
-                                            <label class="price">
+                                            <label class="price">$
                                                 @if ($Item->product)
                                                     {{ $Item->product->discounted_price }}
                                                 @else
@@ -71,8 +71,8 @@
                                         </div>
                                         <div class="col-md-2 col-5 my-auto">
                                             <div class="remove">
-                                                <button type="button" class="btn btn-sm">
-                                                    <a href="{{ url('/wishlist/'.$Item->id.'/delete') }}" >Remove</a>
+                                                <button type="button" class="long-main-btn btn-sm">
+                                                    <a href="{{ url('/wishlist/'.$Item->id.'/delete') }}">Remove</a>
                                                 </button>
                                             </div>
                                         </div>

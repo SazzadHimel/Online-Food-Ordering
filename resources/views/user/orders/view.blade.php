@@ -9,7 +9,7 @@
                 <div class='col-md-12'>
                     <div class='shadow bg-white p-3'>
                         <h4 class='text-primary'>
-                            <i class='fa fa-shopping-cart text-dark'>My Order Details</i>
+                            <i class='fa fa-shopping-cart text-dark'>Order Invoice</i>
                             <a href="{{ url('orders') }}" class='btn btn-danger btn-sm float-end'>Back</a>
                         </h4>
                         <hr>
@@ -38,6 +38,7 @@
 
                         <br/>
                         <h5>Order Items</h5>
+                        <hr>
                         <div class='table responsive'>
                             <table class='table table-bordered table-striped'>
                                 <thead>
@@ -52,7 +53,7 @@
                                     @php
                                         $totalPrice = 0;
                                     @endphp
-                                    @foreach ($order->orderItems as $orderItem)
+                                    @forelse ($order->orderItems as $orderItem)
                                         <tr>
                                             <td width='10%'>{{$orderItem->id}}</td>
                                             <td width='10%'>
@@ -73,7 +74,7 @@
                                         <tr>
                                             <td colspan='7'>No Order Placed Yet</td>
                                         </tr>
-                                    @endforeach
+                                    @endforelse
                                     <tr>
                                         <td colspan='5' class='fw-bold'>Total Price Amount: </td>
                                         <td colspan='1' class='fw-bold'>${{$totalPrice}}</td>
@@ -81,9 +82,7 @@
                                 </tbody>
 
                             </table>
-                            <div>
-                                {{ $orders->links() }}
-                            </div>
+
                         </div>
 
                     </div>
