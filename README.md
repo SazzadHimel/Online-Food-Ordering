@@ -64,3 +64,57 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+---
+
+## 📚 CSE471 Project Ideas  
+**Section-6**  
+**Group-9**
+
+### 📌 Submitted To  
+- Anika Afrin, C. Lecturer, BRAC University  
+- Quazi Ashikur Rahman, C. Lecturer, BRAC University  
+
+### 👨‍💻 Submitted By  
+- **Sazzad Hossain Himel** (21301066)  
+- **Abdul Khalek Alve** (21301102)  
+
+📅 **Date of Submission**: 2nd November, 2023
+
+---
+
+## 💡 Project Idea: Online Food Ordering System
+
+### ✅ Functional Requirements
+
+#### 🔐 Module 1: User Registration & Authentication
+- Customer Registration  
+- Customer & Admin Login  
+- Forgot Password  
+- Digital Wallet Generation  
+- Customer & Admin Logout  
+
+#### 🍔 Module 2: Food Product Management
+- Display Food Categories and Items of the Restaurant  
+- Product Filtering with Food Categories  
+- Search Option  
+- Recommended for You Feature  
+- Display User Profile (Name, Phone, Address — Editable)  
+- Display Popular Food Items with Discount  
+
+#### 💰 Module 3: Restaurant Sales Management
+- Add & Delete Food Items (Admin)  
+- Add, Edit & Delete Food Categories (Admin)  
+- Delete Customer Account  
+- Sales Report Generation (Admin only)  
+- Customer Reviews  
+- Customer Wishlist  
+
+#### 🛒 Module 4: Order Processing
+- Add/Remove Items from Cart (Customer)  
+- Checkout Page with Payment Method (COD / Digital Wallet)  
+- Display Order List (User & Admin Frontend)  
+- Invoice Generation  
+- Wallet Balance Transfer  
+
