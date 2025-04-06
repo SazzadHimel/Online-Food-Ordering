@@ -68,22 +68,6 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ---
 
-## 📚 CSE471 Project Ideas  
-**Section-6**  
-**Group-9**
-
-### 📌 Submitted To  
-- Anika Afrin, C. Lecturer, BRAC University  
-- Quazi Ashikur Rahman, C. Lecturer, BRAC University  
-
-### 👨‍💻 Submitted By  
-- **Sazzad Hossain Himel** (21301066)  
-- **Abdul Khalek Alve** (21301102)  
-
-📅 **Date of Submission**: 2nd November, 2023
-
----
-
 ## 💡 Project Idea: Online Food Ordering System
 
 ### ✅ Functional Requirements
